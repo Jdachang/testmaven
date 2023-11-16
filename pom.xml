@@ -22,7 +22,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.SimpleHttpServer</mainClass>
+                            <mainClass>org.example.SimpleHttpServer</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
