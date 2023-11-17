@@ -36,7 +36,7 @@ public class SimpleHttpServer {
             exchange.sendResponseHeaders(200, 0);
 
             // 发送响应体
-            String response = "Hello啊, 小二富";
+            String response = "Hello啊~二富";
             os.write(response.getBytes());
 
             // 关闭输出流和交换
