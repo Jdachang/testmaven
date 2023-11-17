@@ -32,6 +32,7 @@ public class SimpleHttpServer {
             OutputStream os = exchange.getResponseBody();
 
             // 发送响应头，必须在 sendResponseHeaders 前调用
+            exchange.getResponseHeaders().set("Content-Type", "text/plain; charset=UTF-8");
             exchange.sendResponseHeaders(200, 0);
 
             // 发送响应体
